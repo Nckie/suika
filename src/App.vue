@@ -5,8 +5,22 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+      <login/>
   </div>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+import Login from './main/ui/Login.vue';
+
+@Component({
+  components: {
+    Login,
+  },
+})
+export default class App extends Vue {
+}
+</script>
 
 <style lang="scss">
 #app {
