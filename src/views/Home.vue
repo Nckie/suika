@@ -7,12 +7,12 @@
 <script lang="ts">
 // @ is an alias to /src
 import login from '@/common/login/ui/Login.vue';
-import { Component, Vue, Prop } from 'vue-property-decorator';
+import { Component, Vue } from 'vue-property-decorator';
 
 @Component({
     components: {
-        login,
-    },
+        login
+    }
 })
 export default class Home extends Vue {}
 </script>

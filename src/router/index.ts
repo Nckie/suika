@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import VueRouter, { RouteConfig } from 'vue-router';
+import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import DashboardRouteConfig from './DashboardRouteConfig';
 
@@ -13,10 +13,10 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'Home',
-            component: Home,
+            component: Home
         },
-        DashboardRouteConfig,
-    ],
+        DashboardRouteConfig
+    ]
 });
 
 export default router;
