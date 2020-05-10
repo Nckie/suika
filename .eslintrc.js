@@ -14,9 +14,9 @@ module.exports = {
         ecmaVersion: 2020
     },
     rules: {
+        'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }]
+        'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
     },
     overrides: [
         {
