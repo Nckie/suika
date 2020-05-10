@@ -1,12 +1,12 @@
 <template>
     <div>
         <h2>Connectez-vous à Suika</h2>
-        <form @submit="checkCredentials">
+        <form>
             <label for="login-username">Username</label>
             <input v-model="userName" type="text" id="login-username" placeholder="Identifiant" />
 
             <label for="login-password">Password</label>
-            <input type="text" id="login-password" placeholder="Mot de passe super sécurisé" />
+            <input v-model="password" type="text" id="login-password" placeholder="Mot de passe super sécurisé" />
 
             <button type="submit">Valider</button>
         </form>
@@ -24,10 +24,9 @@ export default class Login extends Vue {
     };
 
     private userName = '';
-
     private password = '';
 
-    checkCredentials() {
+    created() {
         console.log(this.userName);
         console.log(this.password);
     }
