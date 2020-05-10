@@ -1,17 +1,18 @@
 <template>
     <div class="home">
-        <HelloWorld msg="Welcome to Your Vue.js App" />
+        <login />
     </div>
 </template>
 
-<script>
+<script lang="ts">
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import login from '@/common/login/ui/Login.vue';
+import { Component, Vue, Prop } from 'vue-property-decorator';
 
-export default {
-    name: 'Home',
+@Component({
     components: {
-        HelloWorld,
+        login,
     },
-};
+})
+export default class Home extends Vue {}
 </script>

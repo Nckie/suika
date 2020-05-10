@@ -1,23 +1,14 @@
 <template>
     <div id="app">
-        <div id="nav">
-            <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link>
-        </div>
+        <div id="nav"><router-link to="/">Home</router-link></div>
         <router-view />
-        <login />
     </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import Login from './main/ui/Login.vue';
 
-@Component({
-    components: {
-        Login,
-    },
-})
+@Component
 export default class App extends Vue {}
 </script>
 
