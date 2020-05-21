@@ -1,0 +1,76 @@
+{
+    "name": "nouvel événement",
+    "date": "2020-10-01T00:00:00.000+0000",
+    "type": "BREAKFAST | BRUNCH | LUNCH | SNACK | DINNER",
+    "id": "event_id",
+    "category": [
+        {
+            "label": "détente",
+            "ref": "oaziaoe"
+        },
+        {
+            "label": "travail",
+            "ref": "febergerrf"
+        }
+    ],
+    "groups": [
+        {
+            "name": "groupe de convive 1",
+            "guests": [
+                {
+                    "firstName": "group guest 1",
+                    "lastName": "group guest 1",
+                    "avatar": {
+                        "baseUrl": "/avatar/",
+                        "name": "LAvatar"
+                    }
+                }
+            ],
+            "ref": "hazejae"
+        }
+    ],
+    "guests": [
+        {
+            "firstName": "guest 1",
+            "lastName": "guest 1",
+            "avatar": {
+                "baseUrl": "/avatar/",
+                "name": "LAvatar"
+            },
+            "ref": "azeeaeza"
+        }
+    ],
+    "preferences": [
+        {
+            "type": "ALLERGY",
+            "unappreciatedFoodList": [
+                {
+                    "label": "soy", 
+                    "ref": "papapaaap"
+                },
+                {
+                    "label": "cacahuettes",
+                    "ref": "aoeiae"
+                }
+            ]
+        },
+        {
+            "type": "SPECIAL_DIET",
+            "unappreciatedFoodList": [
+                {
+                    "label": "vegan", 
+                    "ref": "papapaaap"
+                }
+            ]
+        },
+        {
+            "type": "FRUIT_VEGETABLES",
+            "unappreciatedFoodList": [
+                {
+                    "label": "grappe", 
+                    "ref": "rhrh"
+                }
+            ]
+        }
+    ]
+}

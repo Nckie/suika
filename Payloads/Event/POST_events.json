@@ -1,0 +1,42 @@
+{
+    "name": "nouvel événement",
+    "date": "2020-10-01T00:00:00.000+0000",
+    "type": "BREAKFAST | BRUNCH | LUNCH | SNACK | DINNER",
+    "category": [
+        {
+            "label": "détente",
+            "ref": "oaziaoe"
+        },
+        {
+            "label": "travail",
+            "ref": "febergerrf"
+        }
+    ],
+    "groups": [
+        {
+            "name": "groupe de convive 1",
+            "guests": [
+                {
+                    "firstName": "group guest 1",
+                    "lastName": "group guest 1",
+                    "avatar": {
+                        "baseUrl": "/avatar/",
+                        "name": "LAvatar"
+                    }
+                }
+            ],
+            "ref": "hazejae"
+        }
+    ],
+    "guests": [
+        {
+            "firstName": "guest 1",
+            "lastName": "guest 1",
+            "avatar": {
+                "baseUrl": "/avatar/",
+                "name": "LAvatar"
+            },
+            "ref": "azeeaeza"
+        }
+    ]
+}

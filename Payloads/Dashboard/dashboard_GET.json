@@ -1,0 +1,53 @@
+{
+    "guests": [
+        {
+            "firstName" : "Léa",
+            "lastName": "Dupont",
+            "avatar": {
+                "baseUrl": "/avatar/",
+                "name": "LeaAvatar"
+            },
+            "groups": [
+                {"name": "famille"},
+                {"name": "travail"}
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "name": "super groupe",
+            "description": "super description",
+            "guests": [
+                {
+                    "avatar": {
+                        "baseUrl": "/avatar/",
+                        "name": "LAvatar"
+                    }
+                },
+                {
+                    "avatar": {
+                        "baseUrl": "/avatar/",
+                        "name": "toto"
+                    }
+                }
+            ],
+            "numberOfUpcomingEvent": 3
+        }
+    ],
+    "events": [
+        {
+            "name": "super repas",
+            "date": "2020-10-01T00:00:00.000+0000",
+            "type": "BREAKFAST | BRUNCH | LUNCH | SNACK | DINNER",
+            "category": ["détente", "préparatif vacances", "travail"],
+            "guests": [
+                {
+                    "avatar": {
+                        "baseUrl": "/avatar/",
+                        "name": "LAvatar"
+                    }
+                }
+            ]
+        }
+    ]
+}

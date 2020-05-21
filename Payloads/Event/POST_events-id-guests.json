@@ -1,0 +1,13 @@
+{
+    "guests": [
+        {
+            "firstName": "guest 1",
+            "lastName": "guest 1",
+            "avatar": {
+                "baseUrl": "/avatar/",
+                "name": "LAvatar"
+            },
+            "ref": "azeeaeza"
+        }
+    ]
+}

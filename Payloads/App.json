@@ -1,0 +1,11 @@
+{
+    "currentUser": {
+        "firstName": "toto",
+        "lastName": "tata",
+        "avatar": {
+            "baseUrl": "/avatar/",
+            "name": "LeaAvatar"
+        },
+        "descrption": "description personelle"
+    }
+}

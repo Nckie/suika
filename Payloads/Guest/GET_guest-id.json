@@ -1,0 +1,100 @@
+{
+    "firstName" : "Léa",
+    "lastName": "Dupont",
+    "avatar": {
+        "baseUrl": "/avatar/",
+        "name": "LeaAvatar"
+    },
+    "description": "decription blablabla",
+    "id": "guest_id",
+    "groups": [
+        {
+            "name": "famille",
+            "ref": "falkfa"
+        },
+        {
+            "name": "travail",
+            "ref": "jahze"
+        }
+    ],
+    "preferences": [
+        {
+            "type": "FRUITS_VEGETALES",
+            "unappreciatedFoodList" : [
+                {
+                    "label": "banana", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                }
+            ]
+        },
+        {
+            "type": "ALERGY",
+            "unappreciatedFoodList" : [
+                {
+                    "label": "soy", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                }
+            ]
+        },
+        {
+            "type": "SPECIAL_DIET",
+            "unappreciatedFoodList" : [
+                {
+                    "label": "vegan", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                },
+                {
+                    "label": "hallal", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                }
+            ]
+        },
+        {
+            "type": "GROCERY",
+            "unappreciatedFoodList" : [
+                {
+                    "label": "pasta", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                },
+                {
+                    "label": "rice", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                }
+            ]
+        },
+        {
+            "type": "CEREAL",
+            "unappreciatedFoodList" : [
+                {
+                    "label": "pumkin seed", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                },
+                {
+                    "label": "quinoa", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                },
+                {
+                    "label": "poppy seed", 
+                    "ref": "papapaaap", 
+                    "links": [{"deletePreference": [] }] 
+                }
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "super repas",
+            "date": "2020-10-01T00:00:00.000+0000",
+            "type": "BREAKFAST | BRUNCH | LUNCH | SNACK | DINNER",
+            "category": ["détente", "préparatif vacances", "travail"]
+        }
+    ]
+}

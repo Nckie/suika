@@ -1,0 +1,14 @@
+{
+    "guests": [
+        {
+            "firstName": "tata",
+            "lastName": "dupont",
+            "id": "tata-id",
+            "avatar": {
+                "baseUrl": "/avatar/",
+                "name": "TataAvatar"
+            },
+            "description": "decription"
+        }
+    ]
+}

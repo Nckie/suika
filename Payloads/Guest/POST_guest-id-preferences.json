@@ -1,0 +1,16 @@
+{
+    "preferences" : [
+        {
+            "category": "CEREAL",
+            "unappreciatedFood": "aliment 1"
+        },
+        {
+            "category": "CEREAL",
+            "unappreciatedFood": "aliment 2"
+        },
+        {
+            "category": "ALLERGY",
+            "unappreciatedFood": "aliment 3"
+        }
+    ]
+}

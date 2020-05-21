@@ -1,0 +1,17 @@
+{
+    "groups": [
+        {
+            "name": "groupe de convive 1",
+            "guests": [
+                {
+                    "firstName": "group guest 1",
+                    "lastName": "group guest 1",
+                    "avatar": {
+                        "baseUrl": "/avatar/",
+                        "name": "LAvatar"
+                    }
+                }
+            ]
+        }
+    ]
+}

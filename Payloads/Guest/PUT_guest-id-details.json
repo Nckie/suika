@@ -1,0 +1,16 @@
+{
+    "firstName" : "Léa",
+    "lastName": "Dupont",
+    "avatar": {
+        "baseUrl": "/avatar/",
+        "name": "LeaAvatar"
+    },
+    "description": "decription blablabla",
+    "id": "guest_id",
+    "groups": [
+        {
+            "name": "collègues",
+            "ref": "falkfa"
+        }
+    ]
+}

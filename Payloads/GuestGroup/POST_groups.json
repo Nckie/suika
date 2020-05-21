@@ -1,0 +1,34 @@
+{
+    "name": "group name",
+    "description": "group description",
+    "guests": [
+        {
+            "firstName": "tata",
+            "lastName": "dupont",
+            "id": "tata-id",
+            "avatar": {
+                "baseUrl": "/avatar/",
+                "name": "TataAvatar"
+            },
+            "description": "decription"
+        },
+        {
+            "firstName": "toto",
+            "lastName": "dupont",
+            "id": "toto-id",
+            "avatar": {
+                "baseUrl": "/avatar/",
+                "name": "TotoAvatar"
+            },
+            "description": "decription"
+        }
+    ],
+    "events": [
+        {
+            "name": "super repas",
+            "date": "2020-10-01T00:00:00.000+0000",
+            "type": "BREAKFAST | BRUNCH | LUNCH | SNACK | DINNER",
+            "category": ["détente", "préparatif vacances", "travail"]
+        }
+    ]
+}
